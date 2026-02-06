@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import dn from '../assets/img/Davinci.png';
+import dn from '../assets/img/DaVinci.png';
 import cp from '../assets/img/capcut.png';
 import pp from '../assets/img/pp.png';
 import canva from '../assets/img/canva.png';
