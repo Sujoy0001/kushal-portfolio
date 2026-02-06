@@ -5,3 +5,20 @@
   text-align: center;
   background: linear-gradient(to right, #00c6ff, #0072ff);
 }
+
+.curve-anim {
+  clip-path: ellipse(120% 100% at 50% 0%);
+  animation: curveFloat 6s ease-in-out infinite;
+}
+
+@keyframes curveFloat {
+  0% {
+    clip-path: ellipse(120% 100% at 50% 0%);
+  }
+  50% {
+    clip-path: ellipse(140% 120% at 50% 0%);
+  }
+  100% {
+    clip-path: ellipse(120% 100% at 50% 0%);
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="h-auto w-full bg-neutral-900 text-neutral-200 overflow-hidden">
+        <footer className="h-auto w-full bg-[#111111] text-neutral-200 overflow-hidden">
 
             <div className="max-w-7xl mx-auto flex justify-between items-start py-8">
                 <span className="text-xl sujoy1 tracking-widest uppercase text-neutral-400">Portfolio</span>
