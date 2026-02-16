@@ -6,6 +6,7 @@ import MainData from './sections/Main'
 import VideoSection from './sections/Video'
 import Skills from './sections/Skills'
 import Contact from './sections/Contact'
+import Reel from './sections/Reel'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Landing1 />
         <About />
         <VideoSection />
+        <Reel />
         <Skills />
         <Contact />
         {/* <MainData /> */}

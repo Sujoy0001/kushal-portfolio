@@ -35,3 +35,16 @@
     inset 0 1px 0 rgba(255,255,255,0.35);
 }
 
+@font-face {
+  font-family: 'AppleDesign';
+  src: url('/src/assets/Microgramma-D-Bold-Extended.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap; /* Improves loading performance */
+  font-style: normal;
+}
+
+.sujoy7 {
+  font-family: 'AppleDesign', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased; /* Makes it look crisp like Apple's site */
+  -moz-osx-font-smoothing: grayscale;
+}
