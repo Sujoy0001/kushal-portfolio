@@ -25,7 +25,7 @@ export default function About() {
 
           <a 
             href="#contact" 
-            className="group flex items-center gap-4 text-xl font-bold tracking-widest uppercase text-gray-900 hover:text-amber-300 transition-opacity"
+            className="group flex items-center gap-4 text-xl font-bold tracking-widest mb-8 uppercase text-gray-900 hover:text-amber-300 transition-opacity"
           >
             Download cv
             <svg 
@@ -44,7 +44,7 @@ export default function About() {
       </div>
 
       <div className="absolute bottom-0 right-0 select-none leading-none pointer-events-none">
-        <h1 className="text-[12vw] font-bold tracking-tighter text-black uppercase bottom-0 right-0">
+        <h1 className="text-7xl md:text-[12vw] font-bold tracking-tighter text-black uppercase bottom-0 right-0">
           About Me
         </h1>
       </div>

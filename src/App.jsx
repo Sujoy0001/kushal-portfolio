@@ -7,6 +7,7 @@ import VideoSection from './sections/Video'
 import Skills from './sections/Skills'
 import Contact from './sections/Contact'
 import Reel from './sections/Reel'
+import PortraitVideoEditor from './sections/mobile'
 
 function App() {
   return (
@@ -14,7 +15,12 @@ function App() {
       <div>
         <Landing1 />
         <About />
-        <VideoSection />
+        <div className="hidden lg:block">
+         <VideoSection />
+        </div>
+        <div className="lg:hidden">
+          <PortraitVideoEditor />
+        </div>
         <Reel />
         <Skills />
         <Contact />

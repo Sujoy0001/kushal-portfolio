@@ -6,13 +6,14 @@ export default function Landing1() {
     <>
         <div className="relative min-h-screen w-full flex items-center justify-center bg-amber-200 overflow-hidden">
 
-            <div className="flex flex-col items-center text-center gap-2">
-                <div className="w-full sujoy1 flex justify-between items-center max-w-7xl z-15">
+            <div className="flex flex-col items-center text-center gap-2 p-6 mb-52 md:mb-0">
+                <div className="w-full sujoy1 flex flex-col md:flex-row justify-between items-start md:items-center md:max-w-7xl z-15">
                 <h2 className="text-amber-800 text-4xl">Visual Storyteller.</h2>
                 <h2 className="text-green-950 text-4xl">Kushal Roy</h2>
                 </div>
 
-                <div className="sujoy2 leg text-4xl text-white">PORTFOLIO</div>
+                <div className="sujoy2 leg text-6xl text-white hidden md:block">PORTFOLIO</div>
+                <div className="sujoy2 text-8xl text-white md:hidden">PORTFOLIO</div>
 
                 <div className="w-full sujoy1 flex justify-end items-center max-w-7xl z-15">
                     <h2 className="text-zinc-900 text-4xl sujoy1">Photo & Video Editor</h2>

@@ -1,12 +1,43 @@
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 
+// 1. Added dummy Instagram URLs to each reel object
 const REELS = [
-  { id: 1, title: "Low-light photography.", description: "Capture sharp images in the dark.", image: "https://images.unsplash.com/photo-1616423641454-da96366596e1?q=80&w=1000&auto=format&fit=crop" },
-  { id: 2, title: "All 48MP cameras.", description: "Detailed images at every zoom.", image: "https://images.unsplash.com/photo-1534126511673-b6899157e84a?q=80&w=1000&auto=format&fit=crop" },
-  { id: 3, title: "Ultra Wide lens.", description: "Dramatic perspectives and macro.", image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1000&auto=format&fit=crop" },
-  { id: 4, title: "Action Mode.", description: "Smooth handheld video tech.", image: "https://images.unsplash.com/photo-1551818255-e6e10975bc17?q=80&w=1000&auto=format&fit=crop" },
-  { id: 5, title: "Cinematic 4K.", description: "Pro-level video in your pocket.", image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop" },
+  { 
+    id: 1, 
+    title: "Low-light photography.", 
+    description: "Capture sharp images in the dark.", 
+    image: "https://images.unsplash.com/photo-1616423641454-da96366596e1?q=80&w=1000&auto=format&fit=crop",
+    url: "https://www.instagram.com/reel/C_dummy1/" 
+  },
+  { 
+    id: 2, 
+    title: "All 48MP cameras.", 
+    description: "Detailed images at every zoom.", 
+    image: "https://images.unsplash.com/photo-1534126511673-b6899157e84a?q=80&w=1000&auto=format&fit=crop",
+    url: "https://www.instagram.com/reel/C_dummy2/" 
+  },
+  { 
+    id: 3, 
+    title: "Ultra Wide lens.", 
+    description: "Dramatic perspectives and macro.", 
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1000&auto=format&fit=crop",
+    url: "https://www.instagram.com/reel/C_dummy3/" 
+  },
+  { 
+    id: 4, 
+    title: "Action Mode.", 
+    description: "Smooth handheld video tech.", 
+    image: "https://images.unsplash.com/photo-1551818255-e6e10975bc17?q=80&w=1000&auto=format&fit=crop",
+    url: "https://www.instagram.com/reel/C_dummy4/" 
+  },
+  { 
+    id: 5, 
+    title: "Cinematic 4K.", 
+    description: "Pro-level video in your pocket.", 
+    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop",
+    url: "https://www.instagram.com/reel/C_dummy5/" 
+  },
 ];
 
 export default function CenteredReel() {
@@ -32,7 +63,7 @@ export default function CenteredReel() {
 
   return (
     <section className="bg-black text-white min-h-screen py-12 overflow-hidden font-custom">
-      
+            
       {/* Centered Header */}
       <div className="text-left sujoy7 mb-16 px-8">
         <motion.h2 
@@ -58,16 +89,27 @@ export default function CenteredReel() {
         >
           {REELS.map((item) => (
             <div key={item.id} className="shrink-0 w-[80vw] md:w-1/2 snap-center group">
-              <motion.div 
-                whileHover={{ scale: 0.98 }}
-                className="aspect-[9/16] w-full rounded-[3rem] md:rounded-md overflow-hidden bg-[#161617] relative"
-              >
-                <img 
-                  src={item.image} 
-                  alt={item.title}
-                  className="w-full h-full object-cover select-none transition-transform duration-700 group-hover:scale-105"
-                />
-              </motion.div>
+              
+              {/* 2. Wrapped the motion.div in an anchor tag pointing to the Insta URL */}
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <motion.div 
+                  whileHover={{ scale: 0.98 }}
+                  className="aspect-[9/16] w-full rounded-[3rem] md:rounded-md overflow-hidden bg-[#161617] relative"
+                >
+                  <img 
+                    src={item.image} 
+                    alt={item.title}
+                    className="w-full h-full object-cover select-none transition-transform duration-700 group-hover:scale-105"
+                  />
+                  
+                  {/* Optional: Add a subtle play icon overlay here to show it's a video */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20 pointer-events-none">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="white" className="drop-shadow-lg">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
+                </motion.div>
+              </a>
 
               <div className="mt-8 text-left px-4">
                 <p className="text-lg sujoy7 md:text-xl leading-tight text-emerald-400">

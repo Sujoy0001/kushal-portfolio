@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="h-auto w-full bg-[#111111] text-neutral-200 overflow-hidden">
 
-            <div className="max-w-7xl mx-auto flex justify-between items-start py-8">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start py-8 px-2">
                 <span className="text-xl sujoy1 tracking-widest uppercase text-neutral-400">Portfolio</span>
 
                 <nav className="flex gap-8 text-md uppercase tracking-wider text-neutral-400">
@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
 
             <div className="-bottom-2 w-full text-center pointer-events-none">
-                <h1 className="text-[16vw] font-black leading-none tracking-tight text-neutral-100 opacity-90">
+                <h1 className="text-6xl md:text-[16vw] font-black leading-none tracking-tight text-neutral-100 opacity-90">
                     Kush.prods
                 </h1>
             </div>

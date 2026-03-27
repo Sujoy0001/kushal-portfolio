@@ -13,7 +13,6 @@ const Skills = () => {
   const softwareIcons = [
     { name: "Davinci Resolve", url: dn },
     { name: "CapCut PC", url: cp },
-    { name: "premiere pro", url: pp },
     { name: "Canva", url: canva },
   ];
 
@@ -28,7 +27,7 @@ const Skills = () => {
             className="text-6xl md:text-8xl font-bold leading-none mb-4 tracking-tighter"
           >
             ALL YOUR <br />
-            <span className="italic font-medium serif text-5xl md:text-7xl">design needs</span>
+            <span className="italic font-medium serif text-5xl md:text-7xl">editing needs</span>
           </motion.h1>
         </div>
 
