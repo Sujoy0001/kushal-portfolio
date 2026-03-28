@@ -1,5 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+import img1 from '../assets/img/IMAX.png'
+import img2 from '../assets/img/THE DEFOCUSED.png'
+import img3 from '../assets/img/EP03 KASHI.png'
 
 // 1. Added dummy Instagram URLs to each reel object
 const REELS = [
@@ -14,22 +17,22 @@ const REELS = [
     id: 2, 
     title: "All 48MP cameras.", 
     description: "Detailed images at every zoom.", 
-    image: "https://images.unsplash.com/photo-1534126511673-b6899157e84a?q=80&w=1000&auto=format&fit=crop",
-    url: "https://www.instagram.com/reel/C_dummy2/" 
+    image: img2,
+    url: "https://www.instagram.com/reel/C8gTAzuSbee/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 3, 
     title: "Ultra Wide lens.", 
     description: "Dramatic perspectives and macro.", 
-    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1000&auto=format&fit=crop",
-    url: "https://www.instagram.com/reel/C_dummy3/" 
+    image: img1,
+    url: "https://www.instagram.com/reel/DQIqEQCiS0n/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 4, 
     title: "Action Mode.", 
     description: "Smooth handheld video tech.", 
-    image: "https://images.unsplash.com/photo-1551818255-e6e10975bc17?q=80&w=1000&auto=format&fit=crop",
-    url: "https://www.instagram.com/reel/C_dummy4/" 
+    image: img3,
+    url: "https://www.instagram.com/reel/DTscgK6D04r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 5, 
