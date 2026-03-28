@@ -10,8 +10,8 @@ const Skills = () => {
   ];
 
   const softwareIcons = [
-    { name: "Davinci Resolve", url: dn },
     { name: "CapCut PC", url: cp },
+    { name: "Davinci Resolve", url: dn },
     { name: "Canva", url: canva },
   ];
 

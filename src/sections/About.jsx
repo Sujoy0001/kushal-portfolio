@@ -20,7 +20,8 @@ export default function About() {
         <div className="flex flex-col space-y-8 md:pl-10">
           <h2 className="text-6xl sujoy1 font-bold text-green-800">Visual Alchemist.</h2>
           <p className="text-gray-800 text-lg md:text-xl font-medium leading-relaxed max-w-md text-right mb-8">
-            I don't just cut footage; I orchestrate emotions. With a background in color science and sound design, I treat every frame as a canvas. My workflow mimics the pacing of music—building tension, releasing energy, and finding the perfect beat for every cut.
+            I don't just cut footage; I orchestrate emotions. With a background in color science and sound design, I treat every frame as a canvas. My workflow mimics the pacing of Art , Story and Cinema. 
+            Creating a New Perspective of Motion Graphics Using Davinci Resolve Fusion.
           </p>
 
           <a 

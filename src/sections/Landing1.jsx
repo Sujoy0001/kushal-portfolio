@@ -16,7 +16,7 @@ export default function Landing1() {
                 <div className="sujoy2 text-9xl md:text-[25vh] md:mb-40 text-white lg:hidden py-4">PORTFOLIO</div>
 
                 <div className="w-full sujoy1 flex justify-end items-center max-w-7xl z-15">
-                    <h2 className="text-zinc-900 text-4xl sujoy1">Photo & Video Editor</h2>
+                    <h2 className="text-zinc-900 text-4xl sujoy1">Cinematographer & Editor</h2>
                 </div>
             </div>
 

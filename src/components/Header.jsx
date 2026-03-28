@@ -19,7 +19,7 @@ export default function Header() {
             <a href="https://x.com/Kushal_roy69" className="hover:text-zinc-700 transition">
               <FaTwitter size={18} />
             </a>
-            <a href="https://www.instagram.com/kush.prods" className="hover:text-pink-500 transition">
+            <a href="https://www.instagram.com/kushal_roy69" className="hover:text-pink-500 transition">
               <BsInstagram size={18} />
             </a>
             <a href="mailto:Kushalroy611@gmail.com" className="hover:text-red-500 transition">

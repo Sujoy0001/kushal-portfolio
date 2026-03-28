@@ -42,7 +42,7 @@ const Contact = () => {
 
           <div className="space-y-10">
             {/* Added action and method for Formspree */}
-            <form action="https://formspree.io/f/mvgwqknl" method="POST" className="space-y-8 text-left">
+            <form action="https://formspree.io/f/mnjojbwn" method="POST" className="space-y-8 text-left">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-wider font-bold">First Name (required)</label>
