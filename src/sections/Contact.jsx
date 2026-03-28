@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaBehance, FaInstagram, FaFacebookF } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaFacebookF } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -29,11 +29,11 @@ const Contact = () => {
 
               <div>
                 <p className="text-amber-500 text-xs uppercase tracking-widest mb-2">Phone</p>
-                <p className="text-2xl md:text-4xl font-semibold">(+48) 762 864 075</p>
+                <p className="text-2xl md:text-4xl font-semibold">(+91) 89440 41501</p>
               </div>
 
               <div className="flex gap-6 text-2xl">
-                <FaBehance className="cursor-pointer hover:text-blue-500 transition-all" />
+                <FaYoutube className="cursor-pointer hover:text-blue-500 transition-all" />
                 <FaInstagram className="cursor-pointer hover:text-blue-500 transition-all" />
                 <FaFacebookF className="cursor-pointer hover:text-blue-500 transition-all" />
               </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                 <textarea rows="4" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all resize-none"></textarea>
               </div>
 
-              <button type="submit" className="bg-[#F5F5F5] text-black font-black uppercase tracking-widest px-12 py-4 hover:bg-blue-600 hover:text-white transition-all">
+              <button type="submit" className="bg-[#F5F5F5] cursor-pointer text-black font-black uppercase tracking-widest px-12 py-4 hover:bg-blue-600 hover:text-white transition-all">
                 Submit
               </button>
             </form>

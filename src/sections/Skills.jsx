@@ -2,12 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import dn from '../assets/img/DaVinci.png';
 import cp from '../assets/img/capcut.png';
-import pp from '../assets/img/pp.png';
 import canva from '../assets/img/Canva.png';
 
 const Skills = () => {
   const skills = [
-    "Intermediate Colorist and Editor", "Basic Motion Graphics", "Sound Designer", "Video Editor", "Photo Editor", "Content Creator", "Visual Storyteller", "Creative Collaborator", "Problem Solver", "Adaptable Learner"
+    "Intermediate Colorist and Editor", "Intermediate Motion Graphics", "Video Editor", "Photo Editor", "Content Creator", "Visual Storyteller", "Creative Collaborator", "Problem Solver", "Adaptable Learner"
   ];
 
   const softwareIcons = [

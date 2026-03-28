@@ -12,7 +12,7 @@ export default function Header() {
             kush.pords
           </h2> */}
 
-          <div className="flex items-center gap-2 md:gap-4 text-white">
+          <div className="flex items-center gap-4 text-white">
             <a href="#" className="hover:text-blue-500 transition">
               <FaLinkedinIn size={18} />
             </a>
@@ -28,7 +28,7 @@ export default function Header() {
           </div>
 
           <button className="w-auto px-6 py-3 sujoy1 cursor-pointer rounded-full bg-white/10 backdrop-blur-md border border-white">
-            <a href="mailto:sujoygarai89@gmail.com" className="flex items-center justify-center">
+            <a href="mailto:Kushalroy611@gmail.com" className="flex items-center justify-center">
               <span className="text-xs text-white">Contact</span>
               <ArrowRight className="ml-2 text-white" size={12} />
             </a>

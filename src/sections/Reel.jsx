@@ -72,7 +72,7 @@ export default function CenteredReel() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="text-5xl md:text-7xl font-semibold tracking-tighter"
         >
-          Pro results. <br />
+          Pro Results. <br />
           <span className="text-emerald-400">Starting from the center.</span>
         </motion.h2>
       </div>

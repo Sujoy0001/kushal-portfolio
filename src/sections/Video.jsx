@@ -2,6 +2,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ph from '../assets/iphone.png';
+import img1 from '../images/20241203_165446.jpg.jpeg';
+import img2 from '../images/20250418_052610.jpg.jpeg';
+import img3 from '../images/_DSC0265.jpg.jpeg';
+import img4 from '../images/IMG_20241203_100535.jpg.jpeg';
+import img5 from '../images/PicsArt_04-12-06.26.23.jpg.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,11 +16,11 @@ const Video = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const clips = [
-    "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200",
-    "https://images.unsplash.com/photo-1551009175-8a68da93d5f9?q=80&w=1200",
-    "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200",
-    "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1200",
-    "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5
   ];
 
   useEffect(() => {
