@@ -88,7 +88,7 @@ export default function CenteredReel() {
           className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-10 px-[10vw] md:px-[30vw] scroll-smooth"
         >
           {REELS.map((item) => (
-            <div key={item.id} className="shrink-0 w-[80vw] md:w-1/2 snap-center group">
+            <div key={item.id} className="shrink-0 w-[80vw] md:w-[40vw] lg:w-1/2 snap-center group">
               
               {/* 2. Wrapped the motion.div in an anchor tag pointing to the Insta URL */}
               <a href={item.url} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">

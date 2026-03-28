@@ -13,16 +13,16 @@ export default function Header() {
           </h2> */}
 
           <div className="flex items-center gap-4 text-white">
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.linkedin.com/in/kushal-roy69" className="hover:text-blue-500 transition">
               <FaLinkedinIn size={18} />
             </a>
-            <a href="#" className="hover:text-zinc-700 transition">
+            <a href="https://x.com/Kushal_roy69" className="hover:text-zinc-700 transition">
               <FaTwitter size={18} />
             </a>
-            <a href="#" className="hover:text-pink-500 transition">
+            <a href="https://www.instagram.com/kush.prods" className="hover:text-pink-500 transition">
               <BsInstagram size={18} />
             </a>
-            <a href="#" className="hover:text-red-500 transition">
+            <a href="mailto:Kushalroy611@gmail.com" className="hover:text-red-500 transition">
               <FaEnvelope size={18} />
             </a>
           </div>

@@ -54,7 +54,7 @@ const Skills = () => {
           <motion.div
             key={index}
             whileHover={{ scale: 1.1 }}
-            className="px-8 py-4 text-amber-200 rounded-full border border-zinc-200 text-lg font-medium shadow-lg cursor-pointer transition-colors duration-300 glass"
+            className="px-4 py-2.5 md:px-8 md:py-4 text-amber-200 rounded-full border border-zinc-200 text-lg font-medium shadow-lg cursor-pointer transition-colors duration-300 glass"
           >
             {skill}
           </motion.div>

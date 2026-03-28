@@ -5,7 +5,7 @@ import ph from '../assets/apple-iphone-16-pro-max-2024-medium.png'; // Make sure
 import img1 from '../images/20241203_165446.jpg.jpeg';
 import img2 from '../images/20250418_052610.jpg.jpeg';
 import img3 from '../images/_DSC0265.jpg.jpeg';
-import img4 from '../images/IMG_20241203_100535.jpg.jpeg';
+import img4 from '../images/IMG_20250413_163638(1).jpg.jpeg';
 import img5 from '../images/PicsArt_04-12-06.26.23.jpg.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);

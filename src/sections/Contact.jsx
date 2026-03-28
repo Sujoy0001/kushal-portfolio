@@ -22,8 +22,8 @@ const Contact = () => {
             <div className="space-y-8 text-left">
               <div>
                 <p className="text-amber-500 text-xs uppercase tracking-widest mb-2">Email</p>
-                <a href="mailto:contact@studio.com" className="text-2xl md:text-4xl font-semibold hover:text-blue-500 transition-colors">
-                  contact@studio.com
+                <a href="mailto:Kushalroy611@gmail.com" className="text-2xl md:text-4xl font-semibold hover:text-blue-500 transition-colors">
+                  Kushalroy611@gmail.com
                 </a>
               </div>
 
@@ -41,26 +41,31 @@ const Contact = () => {
           </div>
 
           <div className="space-y-10">
-            <form className="space-y-8 text-left">
+            {/* Added action and method for Formspree */}
+            <form action="https://formspree.io/f/mvgwqknl" method="POST" className="space-y-8 text-left">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-wider font-bold">First Name (required)</label>
-                  <input type="text" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
+                  {/* Added name attribute */}
+                  <input type="text" name="firstName" required className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-wider font-bold">Last Name</label>
-                  <input type="text" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
+                  {/* Added name attribute */}
+                  <input type="text" name="lastName" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
                 </div>
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs uppercase tracking-wider font-bold">Email (required)</label>
-                <input type="email" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
+                {/* Added name attribute */}
+                <input type="email" name="email" required className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all" />
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs uppercase tracking-wider font-bold">Message (required)</label>
-                <textarea rows="4" className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all resize-none"></textarea>
+                {/* Added name attribute */}
+                <textarea rows="4" name="message" required className="w-full bg-transparent border-b border-zinc-700 py-3 focus:border-white outline-none transition-all resize-none"></textarea>
               </div>
 
               <button type="submit" className="bg-[#F5F5F5] cursor-pointer text-black font-black uppercase tracking-widest px-12 py-4 hover:bg-blue-600 hover:text-white transition-all">
