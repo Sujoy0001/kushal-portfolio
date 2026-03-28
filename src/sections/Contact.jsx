@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaYoutube, FaInstagram, FaFacebookF } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -33,9 +33,15 @@ const Contact = () => {
               </div>
 
               <div className="flex gap-6 text-2xl">
-                <FaYoutube className="cursor-pointer hover:text-blue-500 transition-all" />
-                <FaInstagram className="cursor-pointer hover:text-blue-500 transition-all" />
-                <FaFacebookF className="cursor-pointer hover:text-blue-500 transition-all" />
+                <a href="https://youtube.com/@kush_prods?si=eqcxHI0i-v8BucXx" target="_blank" rel="noopener noreferrer">
+                  <FaYoutube className="cursor-pointer hover:text-blue-500 transition-all" />
+                </a>
+                <a href="https://www.instagram.com/kush.prods" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="cursor-pointer hover:text-blue-500 transition-all" />
+                </a>
+                <a href="https://x.com/Kushal_roy69" target="_blank" rel="noopener noreferrer">
+                  <FaTwitter className="cursor-pointer hover:text-blue-500 transition-all" />
+                </a>
               </div>
             </div>
           </div>

@@ -3,43 +3,45 @@ import { motion } from "framer-motion";
 import img1 from '../assets/img/IMAX.png'
 import img2 from '../assets/img/THE DEFOCUSED.png'
 import img3 from '../assets/img/EP03 KASHI.png'
+import img4 from '../assets/img/EP 04 Kashi.png'
+import img5 from '../assets/img/Let it Rain.png'
 
 // 1. Added dummy Instagram URLs to each reel object
 const REELS = [
   { 
     id: 1, 
-    title: "Low-light photography.", 
-    description: "Capture sharp images in the dark.", 
-    image: "https://images.unsplash.com/photo-1616423641454-da96366596e1?q=80&w=1000&auto=format&fit=crop",
-    url: "https://www.instagram.com/reel/C_dummy1/" 
+    title: "Latest Work", 
+    description: "Tulasi :- EP 04 KASHI.", 
+    image: img4,
+    url: "https://www.instagram.com/reel/DUQW5VTCSwE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
   },
   { 
     id: 2, 
-    title: "All 48MP cameras.", 
-    description: "Detailed images at every zoom.", 
+    title: "Experience Interstellar", 
+    description: "But on a New Perspective.", 
     image: img2,
     url: "https://www.instagram.com/reel/C8gTAzuSbee/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 3, 
-    title: "Ultra Wide lens.", 
-    description: "Dramatic perspectives and macro.", 
+    title: "IMAX Format", 
+    description: "Experience the Extra.", 
     image: img1,
     url: "https://www.instagram.com/reel/DQIqEQCiS0n/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 4, 
-    title: "Action Mode.", 
-    description: "Smooth handheld video tech.", 
+    title: "Kashi,", 
+    description: " But from a  Closer Perspective.", 
     image: img3,
     url: "https://www.instagram.com/reel/DTscgK6D04r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 5, 
-    title: "Cinematic 4K.", 
-    description: "Pro-level video in your pocket.", 
-    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop",
-    url: "https://www.instagram.com/reel/C_dummy5/" 
+    title: "The Starting of My Classics", 
+    description: "Let it Rain.", 
+    image: img5,
+    url: "https://www.instagram.com/reel/CuEraa4t6sN/?igsh=M251eXJyMjBjOGVp" 
   },
 ];
 

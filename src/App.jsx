@@ -8,7 +8,7 @@ import Skills from './sections/Skills'
 import Contact from './sections/Contact'
 import Reel from './sections/Reel'
 import PortraitVideoEditor from './sections/mobile'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
