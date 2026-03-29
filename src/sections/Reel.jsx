@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import img1 from '../assets/img/IMAX.png'
 import img2 from '../assets/img/THE DEFOCUSED.png'
 import img3 from '../assets/img/EP03 KASHI.png'
-import img4 from '../assets/img/EP 04 Kashi.png'
+import img4 from '../assets/img/Ghar.png'
 import img5 from '../assets/img/Let it Rain.png'
 
 // 1. Added dummy Instagram URLs to each reel object
 const REELS = [
   { 
     id: 1, 
-    title: "Latest Work", 
-    description: "Tulasi :- EP 04 KASHI.", 
-    image: img4,
-    url: "https://www.instagram.com/reel/DUQW5VTCSwE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+    title: "Kashi,", 
+    description: " But from a  Closer Perspective.", 
+    image: img3,
+    url: "https://www.instagram.com/reel/DTscgK6D04r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
   },
   { 
     id: 2, 
@@ -31,10 +31,10 @@ const REELS = [
   },
   { 
     id: 4, 
-    title: "Kashi,", 
-    description: " But from a  Closer Perspective.", 
-    image: img3,
-    url: "https://www.instagram.com/reel/DTscgK6D04r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" 
+    title: "Latest Work", 
+    description: "Ghar 💛✨", 
+    image: img4,
+    url: "https://www.instagram.com/reel/DWd-vnQB3hG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
   },
   { 
     id: 5, 
