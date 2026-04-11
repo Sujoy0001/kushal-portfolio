@@ -1,5 +1,6 @@
 import React from 'react';
-import myimg from '../images/myimg.png';
+// import myimg from '../images/myimg.png';
+import img1 from '../assets/img/kushal.png'
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
         <div className="flex justify-center md:justify-start">
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
             <img
-              src={myimg} 
+              src={img1} 
               alt="Photographer Profile" 
               className="w-full h-full object-cover rounded-full shadow-xl grayscale contrast-125"
             />
