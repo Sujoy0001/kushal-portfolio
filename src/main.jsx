@@ -16,6 +16,8 @@ const router = createBrowserRouter([
   },
 ])
 
+// Designed & Developed by Sujoy Garai — let’s connect. Email: sujoygarai89@gmail.com | LinkedIn: https://www.linkedin.com/in/sujoygarai/
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <ThemeProvider>
