@@ -4,7 +4,7 @@ import img1 from '../assets/img/kushal.png'
 
 export default function About() {
   return (
-    <section className="relative w-full min-h-screen bg-[#f2f2f2] flex items-center justify-center overflow-hidden px-6 py-8 md:px-12">
+    <section className="relative w-full h-full min-h-screen bg-[#f2f2f2] flex items-center justify-center overflow-hidden px-6 py-8 md:px-12">
       
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         
@@ -46,7 +46,7 @@ export default function About() {
       </div>
 
       <div className="absolute bottom-0 right-0 select-none leading-none pointer-events-none">
-        <h1 className="text-7xl md:text-[12vw] font-bold tracking-tighter text-black uppercase bottom-0 right-0">
+        <h1 className="text-[15vw] md:text-[12vw] font-bold tracking-tighter text-black uppercase bottom-0 right-0">
           About Me
         </h1>
       </div>
