@@ -5,9 +5,9 @@ export default function Footer() {
         <footer className="h-auto w-full bg-[#111111] text-neutral-200 overflow-hidden">
 
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start py-8 px-2">
-                <span className="text-xl sujoy1 tracking-widest uppercase text-neutral-400 mb-4">Portfolio</span>
+                <span className="text-3xl sujoy1 tracking-widest uppercase text-neutral-400 mb-4">Portfolio</span>
 
-                <nav className="flex gap-8 text-md uppercase tracking-wider text-neutral-400">
+                <nav className="flex gap-5 md:gap-8 text-md uppercase tracking-wider text-neutral-400">
                     <a href="#" className="hover:text-white transition">Home</a>
                     <a href="#" className="hover:text-white transition">About</a>
                     <a href="#" className="hover:text-white transition">Project</a>
