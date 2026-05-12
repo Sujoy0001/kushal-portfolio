@@ -1,6 +1,7 @@
 import React from 'react';
 // import myimg from '../images/myimg.png';
 import img1 from '../assets/img/kushal.png'
+import pdf from "../assets/KushalRoy_Video Editor.pdf"
 
 export default function About() {
   return (
@@ -26,7 +27,8 @@ export default function About() {
           </p>
 
           <a 
-            href="#contact" 
+            href={pdf} 
+            download
             className="group flex items-center gap-4 text-xl font-bold tracking-widest mb-8 uppercase text-gray-900 hover:text-amber-300 transition-opacity"
           >
             Download cv
