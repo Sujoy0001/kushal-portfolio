@@ -10,11 +10,11 @@ export default function Landing1() {
             <div className="flex flex-col items-center text-center gap-2 p-6 mb-56 md:mb-0">
                 <div className="w-full sujoy1 flex flex-col lg:flex-row justify-between items-start text-left lg:items-center lg:max-w-7xl z-15">
                 <h2 className="text-amber-700 text-4xl">Visual Storyteller.</h2>
-                <h2 className="text-yellow-600 text-4xl">Kushal Roy</h2>
+                <h2 className="text-yellow-600 text-4xl">Portfolio</h2>
                 </div>
 
-                <div className="sujoy2 leg text-6xl text-white hidden lg:block">PORTFOLIO</div>
-                <div className="sujoy2 text-[15vh] md:text-[25vh] md:mb-40 text-white lg:hidden">PORTFOLIO</div>
+                <div className="sujoy2 leg text-6xl text-white hidden lg:block">KUSHAL ROY</div>
+                <div className="sujoy2 text-[15vh] md:text-[25vh] md:mb-40 text-white lg:hidden">KUSHAL ROY</div>
 
                 <div className="w-full sujoy1 flex justify-end items-center max-w-7xl z-15">
                     <h2 className="text-lime-500 text-4xl sujoy1">Cinematographer & Editor</h2>
