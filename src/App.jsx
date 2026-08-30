@@ -16,16 +16,18 @@ function App() {
       <div>
         <Landing1 />
         <About />
+        
+        <Reel />
+        <Skills />
+
         <div className="hidden lg:block">
          <VideoSection />
         </div>
         <div className="lg:hidden">
           <PortraitVideoEditor />
         </div>
-        <Reel />
-        <Skills />
+        
         <Contact />
-        {/* <MainData /> */}
       </div>
       <Analytics />
     </>
